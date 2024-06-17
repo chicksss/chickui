@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+
+  <body>
+    <nav class="bg-none p-4 fixed top-0 w-full">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="text-white font-bold text-4xl">UN</div>
+        <div class="flex space-x-9">
+          <a href="#home" class="text-white hover:text-gray-300">Home</a>
+          <a href="#tips" class="text-white hover:text-gray-300">Tips</a>
+          <a href="#view" class="text-white hover:text-gray-300">View</a>
+          <a href="#about" class="text-white hover:text-gray-300">About</a>
+        </div>
+      </div>
+    </nav>
+    <!-- <h1
+      class="text-3xl font-bold bg-black text-white py-10 space-x-0 font-sans antialiased text-5xl"
+    >
+      Explore the world
+    </h1> -->
+
+    <section
+      id="home"
+      class="bg-black p-8 h-screen bg-cover bg-no-repeat bg-fixed"
+      style="background-image: url('earrrr.png')"
+    >
+      <ul class="list-none items-center mx-9 justify-center mt-9">
+        <h1
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          class="text-8xl w-100 font-bold text-white text-center font-poppins z-negative"
+          style="margin-top: 100px; z-index: -1"
+        >
+          &nbsp; &nbsp; &nbsp; Let's &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Explore
+          &nbsp;
+        </h1>
+        <!-- <button
+            class="btn-sm text-2xl text-white text-left bg-violet font-poppins rounded-lg hover:bg-gray-800 p-4 mt-4"
+          >
+            Explore
+          </button> -->
+
+        <li class="flex justify-center text-center">
+          <img
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+            src="as.png"
+            class="text-center w-50"
+            style="margin-top: -90px"
+          />
+        </li>
+      </ul>
+    </section>
+
+    <section id="tips" class="bg-black p-8 h-screen">
+      <ul class="list-none text-center grid items-center mx-9 p-4 grid-cols-2">
+        <li>
+          <img
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            src="as2.png"
+            class="text-left"
+            style="width: 100%"
+            srcset=""
+          />
+        </li>
+
+        <li class="text-center">
+          <ul class="inline list-none text-left justify-center">
+            <li
+              class="text-white"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <b>Physical Exercise</b>
+              <br />
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque laudantium tempore dolorem excepturi recusandae
+                fugiat, accusantium, sequi optio, quasi eaque odio? Officiis,
+                quaerat. Accusantium ullam hic doloremque neque obcaecati. Eos.
+              </span>
+            </li>
+            <br />
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              class="text-white"
+            >
+              <b>Psychological Well-being</b>
+              <br />
+              <span
+                >Spending prolonged periods in the confined and isolated
+                environment of a spacecraft can take a toll on mental health.
+                Establishing routines, staying connected with loved ones through
+                video calls, and participating in recreational activities can
+                help alleviate feelings of loneliness and monotony.
+                Additionally, utilizing psychological support resources provided
+                by mission control or engaging in mindfulness techniques can aid
+                in managing stress and promoting overall psychological
+                well-being.
+              </span>
+            </li>
+            <br />
+            <li
+              class="text-white"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <b>Adherence to Safety Protocols</b>
+              <br />
+              <span>
+                In space, even minor mishaps can have severe consequences due to
+                the harsh and unforgiving environment. Strict adherence to
+                safety protocols and procedures is paramount to ensure the
+                well-being of the crew and the success of the mission.
+                Prioritize safety drills, familiarize yourself with emergency
+                procedures, and consistently follow guidelines for handling
+                equipment, conducting experiments, and performing spacewalks.
+                Vigilance and attention to detail are essential to mitigate
+                risks and maintain a safe working environment onboard the
+                spacecraft.
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <style>
+      .imgfly {
+        animation: floatAnimation 2s infinite alternate;
+      }
+      .as22 {
+        animation: floatAnimation 1.8s infinite alternate;
+      }
+
+      .parente1 {
+        animation: floatAnimation 1.6s infinite alternate;
+      }
+
+      @keyframes floatAnimation {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(0, -20px);
+        }
+      }
+    </style>
+
+    <section
+      id="view"
+      class="bg-black p-8 h-screen bg-cover bg-no-repeat bg-fixed"
+      style="background-image: url('earrrr.png')"
+    >
+      <div>
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          class="imgfly"
+          src="/as.png"
+          style="
+            width: 100px;
+            margin-left: 400px;
+            margin-top: 100px;
+            margin-bottom: -120px;
+            z-index: 9999;
+          "
+          srcset=""
+        />
+      </div>
+
+      <div>
+        <img
+          class="parente1"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          src="e1.png"
+          style="margin-top: -100px; margin: auto; width: 500px; z-index: -1"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <img
+          class="as22"
+          src="asssss.png"
+          style="
+            width: 100px;
+            margin-left: 800px;
+            margin-top: -200px;
+            margin-bottom: 10px;
+            z-index: 9999;
+          "
+          srcset=""
+        />
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="bg-black p-8 h-screen bg-cover bg-no-repeat bg-fixed"
+    >
+      <ul
+        style="
+          display: flex;
+          list-style: none;
+          gap: 20px;
+          justify-content: center;
+        "
+      >
+        <li>
+          <img
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            src="pinkasss.png"
+            alt=""
+            srcset=""
+          />
+        </li>
+        <li class="text-justify">
+          <h1
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            class="text-white font-bold text-5xl"
+          >
+            ABOUT US
+          </h1>
+          <br />
+          <p
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            class="text-white"
+            style="width: 500px"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos
+            mollitia sapiente porro eveniet iusto aliquid consequuntur deleniti
+            numquam accusantium dignissimos voluptates, nemo nostrum error
+            asperiores aperiam. Minima, tempore debitis! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Quas quos mollitia sapiente porro
+            eveniet iusto aliquid consequuntur deleniti numquam accusantium
+            dignissimos voluptates, nemo nostrum error asperiores aperiam.
+            Minima, tempore debitis! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quas quos mollitia sapiente porro eveniet iusto
+            aliquid consequuntur deleniti numquam accusantium dignissimos
+            voluptates, nemo nostrum error asperiores aperiam. Minima, tempore
+            debitis!
+          </p>
+          <br />
+          <b
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            class="text-2xl mt-4 text-white"
+            >Message us</b
+          >
+          <label for="name" class="block text-gray-700 font-bold mb-2"
+            >Name</label
+          >
+          <input
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            type="text"
+            id="name"
+            name="name"
+            class="w-full p-4 px-3 py-2 border rounded-md focus:outline-none focus:border-violet-500 mt-4"
+            placeholder="Enter your name"
+          />
+        </li>
+      </ul>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
